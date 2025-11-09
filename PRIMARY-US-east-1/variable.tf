@@ -1,7 +1,7 @@
 variable "rds-password" {
     description = "rds password"
     type = string
-    default = "srivardhan"
+    default = "shankar"
   
 }
 variable "rds-username" {
@@ -13,13 +13,13 @@ variable "rds-username" {
 variable "ami" {
     description = "ami"
     type = string
-    default = "ami-04b70fa74e45c3917"
+    default = ""
   
 }
 variable "instance-type" {
     description = "instance-type"
     type = string
-    default = "t2.micro"
+    default = "t3.micro"
   
 }
 variable "key-name" {
